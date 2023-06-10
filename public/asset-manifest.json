@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.652ea9e5.css",
+    "main.js": "/static/js/main.f4e034d0.js",
+    "static/media/Jazz-Cash.jpg": "/static/media/Jazz-Cash.b0b29ab642270fc098e0.jpg",
+    "static/media/bank.jpg": "/static/media/bank.30324fed469cfd210f5f.jpg",
+    "static/media/Easy-pasia.jpg": "/static/media/Easy-pasia.03ed51b3918588af25af.jpg",
+    "index.html": "/index.html",
+    "main.652ea9e5.css.map": "/static/css/main.652ea9e5.css.map",
+    "main.f4e034d0.js.map": "/static/js/main.f4e034d0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.652ea9e5.css",
+    "static/js/main.f4e034d0.js"
+  ]
+}
