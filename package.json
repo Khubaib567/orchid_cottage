@@ -11,13 +11,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "babel-loader": "^9.1.2",
+    "@babel/core": "^7.22.5",
     "bcryptjs": "^2.4.3",
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
     "dotenv": "^16.0.0",
     "express": "^4.18.2",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
+    "lodash": "^4.17.11",
     "mongoose": "^6.3.1",
     "nodemon": "^2.0.22",
     "path": "^0.12.7",
@@ -25,8 +26,8 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "babel": "^5.8.23",
-    "babel-core": "^5.0.0",
-    "babel-loader": "^5.3.2"
-}
+    "babel": "^6.23.0",
+    "babel-core": "^4.7.16",
+    "babel-loader": "^9.1.2"
+  }
 }
