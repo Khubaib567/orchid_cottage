@@ -22,7 +22,7 @@ app.get('/', (req, res) => {
 
 const connect = async () => {
   try {
-    await mongoose.connect(process.env.MONGO);
+    await mongoose.connect("mongodb://Clusters:9cvG4WzpKTToyugV@ac-rwiul0c-shard-00-00.x0fezpj.mongodb.net:27017,ac-rwiul0c-shard-00-01.x0fezpj.mongodb.net:27017,ac-rwiul0c-shard-00-02.x0fezpj.mongodb.net:27017/Clusters?ssl=true&replicaSet=atlas-anz7l0-shard-0&authSource=admin&retryWrites=true&w=majority");
     console.log("Connected to mongoDB.");
   } catch (error) {
     throw error;
@@ -56,9 +56,9 @@ app.use((err, req, res, next) => {
   });
 });
 
-const PORT = 8080
+// const PORT = 8080
 
-app.listen(PORT, () => {
+app.listen(8080, () => {
   connect();
-  console.log(`Server is running on PORT ${PORT}`);
+  console.log(`Server is running!`);
 });
